@@ -1,0 +1,18 @@
+{
+  "name": "testeapi",
+  "version": "1.0.0",
+  "description": "Uma API de teste com Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "testeapi": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
